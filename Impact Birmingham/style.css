@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+* html .clearfix {
+  height: 1%; }
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Starts Styling */
+
+nav {
+  position: absolute;
+  right: 0;
+  top: 53px;
+}
+
+ul#nav {
+  float: left;
+  text-align: center;
+  position: relative;
+  font-family: 'Titillium Web', sans-serif;, serif;
+  text-transform: uppercase;
+}
+
+ul#nav li {
+  display: inline-block;
+  position: relative;
+  padding: 0 0 0 10px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+.logo {
+width: 80px;
+margin-left: 50px;
+padding: 20 0 5 0;
+}
+
+.logo:hover {
+opacity: .8;
+}
+
+.hero {
+  background-color: #1c3144;
+  height: 300px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero h1 {
+  position: relative;
+  top: 130px;
+}
+
+svg#hero-line {
+  margin-top: 170px;
+}
+
+.bg-light-section {
+  height: 300px;
+  display: block;
+  text-align: center;
+}
+
+.bg-light-section h2 {
+  padding-top: 70px;
+  line-height: 80px;
+}
+
+.bg-light-section p {
+  margin: 0 90 0 90;
+}
+
+.bg-race {
+  background-image: url(http://www.tehamagolfclub.com/webart/slideshows/x2.jpg.pagespeed.ic.apclz4g-Ul.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.layer {
+  background-color: rgba(31, 40, 66, 0.4);
+  width: 100%;
+  height: 100%;
+}
+
+.bg-white {
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  text-align: center;
+  height: 220px;
+}
+
+.column {
+  width: 40%;
+  float: left;
+  margin-right: 5%;
+  margin-top: 65px;
+}
+
+.container .column {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+bg-white#event-line {
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li a {
+color: rgb(25, 27, 27);
+}
+
+li a:hover {
+color: rgb(186, 211, 227);
+}
+
+h1 {
+  font-family: 'Titillium Web', sans-serif;, serif;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+h2 {
+font-family: 'Open Sans', sans-serif;, serif;
+font-weight: 300;
+font-size: 35px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;, serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 19px;
+  letter-spacing: .15em;
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
+h4 {
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif;, serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 80px;
+}
+
+.column p {
+color: rgb(255, 255, 255);
+line-height: 22px;
+margin-bottom: 25px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 23px;
+}
+
+span.date {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  display: block;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+span.time {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  display: block;
+  font-weight: 100;
+  line-height: 50px;
+  margin-bottom: 28px;
+}
+
+.btn {
+font-family: 'Titillium Web', sans-serif;, serif;
+background-color: rgb(186, 211, 227);
+padding: 15 25 15 25;
+text-decoration: none;
+color: rgb(104, 147, 182);
+font-size: 18px;
+}
+
+.btn:hover {
+  background-color: rgb(104, 147, 182);
+  color: rgb(255, 255, 255);
+}
+
+.large {
+  font-family: 'Titillium Web', sans-serif;, serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: .13em;
+}
+
+footer {
+  text-align: center;
+  margin-top: 25px;
+  height: 100px;
+}
+
+footer p {
+  font-size: 14px;
+}
